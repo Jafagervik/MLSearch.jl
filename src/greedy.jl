@@ -1,3 +1,3 @@
 function search()
-    println("Hello")
+    return "Hello"
 end
