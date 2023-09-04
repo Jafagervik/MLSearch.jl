@@ -2,5 +2,6 @@ using MLSearch
 using Test
 
 @testset "MLSearch.jl" begin
-    # Write your tests here.
+    @test MLSearch.search() == "Hello"
+    @test MLSearch.search() != "Hello world!"
 end

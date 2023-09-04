@@ -1,5 +1,7 @@
 module MLSearch
 
-# Write your package code here.
+export search
+
+include("greedy.jl")
 
 end
